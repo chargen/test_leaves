@@ -25,6 +25,7 @@
 		84BC3B1F1A7A42810035B5E8 /* kitten2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BC3B1C1A7A42810035B5E8 /* kitten2.jpg */; };
 		84BC3B201A7A42810035B5E8 /* kitten3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BC3B1D1A7A42810035B5E8 /* kitten3.jpg */; };
 		84BC3B231A7A45460035B5E8 /* PDFExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC3B221A7A45460035B5E8 /* PDFExampleViewController.m */; };
+		84FB8B421A7A4A7300A8A9BC /* ProceduralExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB8B411A7A4A7300A8A9BC /* ProceduralExampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		84BC3B1D1A7A42810035B5E8 /* kitten3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten3.jpg; sourceTree = "<group>"; };
 		84BC3B211A7A45460035B5E8 /* PDFExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFExampleViewController.h; sourceTree = "<group>"; };
 		84BC3B221A7A45460035B5E8 /* PDFExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFExampleViewController.m; sourceTree = "<group>"; };
+		84FB8B401A7A4A7300A8A9BC /* ProceduralExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProceduralExampleViewController.h; sourceTree = "<group>"; };
+		84FB8B411A7A4A7300A8A9BC /* ProceduralExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProceduralExampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		84BC3A851A7A28470035B5E8 /* testLeaveView */ = {
 			isa = PBXGroup;
 			children = (
+				84FB8B401A7A4A7300A8A9BC /* ProceduralExampleViewController.h */,
+				84FB8B411A7A4A7300A8A9BC /* ProceduralExampleViewController.m */,
 				84BC3B211A7A45460035B5E8 /* PDFExampleViewController.h */,
 				84BC3B221A7A45460035B5E8 /* PDFExampleViewController.m */,
 				84BC3B181A7A42620035B5E8 /* ImageExampleViewController.h */,
@@ -246,6 +251,7 @@
 				84BC3B171A7A40660035B5E8 /* LeavesViewController.m in Sources */,
 				84BC3B161A7A40660035B5E8 /* LeavesView.m in Sources */,
 				84BC3B1A1A7A42620035B5E8 /* ImageExampleViewController.m in Sources */,
+				84FB8B421A7A4A7300A8A9BC /* ProceduralExampleViewController.m in Sources */,
 				84BC3A8C1A7A28470035B5E8 /* AppDelegate.m in Sources */,
 				84BC3AEB1A7A32A10035B5E8 /* Utilities.m in Sources */,
 				84BC3A921A7A28470035B5E8 /* ViewController.m in Sources */,

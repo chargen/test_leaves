@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "ImageExampleViewController.h"
 #import "PDFExampleViewController.h"
+#import "ProceduralExampleViewController.h"
+
 
 @interface ViewController ()
 
@@ -20,7 +22,7 @@
     [super viewDidLoad];
     UIButton *pdfButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     pdfButton.frame = CGRectMake(100, 100, 100, 100);
-    [pdfButton setTitle:@"show pdf" forState:UIControlStateNormal];
+    [pdfButton setTitle:@"show page from uiview" forState:UIControlStateNormal];
     [pdfButton addTarget:self action:@selector(pdfButtonOnclick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pdfButton];
     
@@ -37,7 +39,7 @@
 }
 
 - (void)pdfButtonOnclick {
-    UIViewController* viewController = [[PDFExampleViewController alloc] init];
+    UIViewController* viewController = [[ProceduralExampleViewController alloc] init];
     [self.navigationController pushViewController:viewController animated:YES];
 
 }
