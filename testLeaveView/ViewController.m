@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ImageExampleViewController.h"
+#import "PDFExampleViewController.h"
 
 @interface ViewController ()
 
@@ -19,9 +20,15 @@
     [super viewDidLoad];
     UIButton *pdfButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     pdfButton.frame = CGRectMake(100, 100, 100, 100);
-    [pdfButton setTitle:@"pdf" forState:UIControlStateNormal];
+    [pdfButton setTitle:@"show pdf" forState:UIControlStateNormal];
     [pdfButton addTarget:self action:@selector(pdfButtonOnclick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pdfButton];
+    
+    UIButton *imageButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    imageButton.frame = CGRectMake(100, 200, 100, 100);
+    [imageButton setTitle:@"show image" forState:UIControlStateNormal];
+    [imageButton addTarget:self action:@selector(imageButtonOnclick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:imageButton];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,8 +37,14 @@
 }
 
 - (void)pdfButtonOnclick {
-    UIViewController* viewController = [[ImageExampleViewController alloc] init];
+    UIViewController* viewController = [[PDFExampleViewController alloc] init];
     [self.navigationController pushViewController:viewController animated:YES];
+
 }
 
+- (void)imageButtonOnclick {
+    UIViewController* viewController = [[ImageExampleViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+
+}
 @end
